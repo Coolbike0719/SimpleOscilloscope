@@ -1,0 +1,115 @@
+Dependencies for Project 'test', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\startup_stm32f10x_hd.s)(0x54C25CC0)(--cpu Cortex-M3 -g --apcs=interwork -IE:\Work\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include--pd "__UVISION_VERSION SETA 538" --pd "STM32F10X_HD SETA 1"--list ..\obj\startup_stm32f10x_hd.lst --xref -o ..\obj\startup_stm32f10x_hd.o --depend ..\obj\startup_stm32f10x_hd.d)
+F (.\test.c)(0x649843A1)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\TIMER -I ..\HARDWARE\LCD -I ..\HARDWARE\ADC -I ..\HARDWARE\STM32F10x_DSP_Lib\inc -I ..\HARDWARE\DAC-IE:\Work\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD -DSTM32F10X_HD-o ..\obj\test.o --omf_browse ..\obj\test.crf --depend ..\obj\test.d)
+I (..\HARDWARE\LED\led.h)(0x54CB0984)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (E:\Work\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\HARDWARE\KEY\key.h)(0x5FF1B5DB)
+I (..\HARDWARE\BEEP\beep.h)(0x5FF1CA8C)
+I (..\HARDWARE\EXTI\exti.h)(0x54CB11DC)
+I (..\HARDWARE\TIMER\timer.h)(0x5FF1B5DB)
+I (..\HARDWARE\LCD\lcd.h)(0x553B4B7A)
+I (E:\Work\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (..\HARDWARE\ADC\adc.h)(0x5F40D685)
+I (..\HARDWARE\DAC\dac.h)(0x54B74800)
+I (..\SYSTEM\delay\delay.h)(0x555AC61F)
+I (..\SYSTEM\usart\usart.h)(0x550EB9F1)
+I (E:\Work\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (..\HARDWARE\STM32F10x_DSP_Lib\inc\stm32_dsp.h)(0x49F93D80)
+I (..\HARDWARE\STM32F10x_DSP_Lib\inc\table_fft.h)(0x49F93D80)
+I (E:\Work\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E3CC2)
+F (..\SYSTEM\delay\delay.c)(0x555AC5E1)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\TIMER -I ..\HARDWARE\LCD -I ..\HARDWARE\ADC -I ..\HARDWARE\STM32F10x_DSP_Lib\inc -I ..\HARDWARE\DAC-IE:\Work\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD -DSTM32F10X_HD-o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
+I (..\SYSTEM\delay\delay.h)(0x555AC61F)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (E:\Work\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (..\SYSTEM\sys\sys.c)(0x550EB960)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\TIMER -I ..\HARDWARE\LCD -I ..\HARDWARE\ADC -I ..\HARDWARE\STM32F10x_DSP_Lib\inc -I ..\HARDWARE\DAC-IE:\Work\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD -DSTM32F10X_HD-o ..\obj\sys.o --omf_browse ..\obj\sys.crf --depend ..\obj\sys.d)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (E:\Work\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (..\SYSTEM\usart\usart.c)(0x550EB9F1)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\TIMER -I ..\HARDWARE\LCD -I ..\HARDWARE\ADC -I ..\HARDWARE\STM32F10x_DSP_Lib\inc -I ..\HARDWARE\DAC-IE:\Work\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD -DSTM32F10X_HD-o ..\obj\usart.o --omf_browse ..\obj\usart.crf --depend ..\obj\usart.d)
+I (..\SYSTEM\usart\usart.h)(0x550EB9F1)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (E:\Work\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (E:\Work\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+F (..\HARDWARE\LED\led.c)(0x54CB096B)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\TIMER -I ..\HARDWARE\LCD -I ..\HARDWARE\ADC -I ..\HARDWARE\STM32F10x_DSP_Lib\inc -I ..\HARDWARE\DAC-IE:\Work\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD -DSTM32F10X_HD-o ..\obj\led.o --omf_browse ..\obj\led.crf --depend ..\obj\led.d)
+I (..\HARDWARE\LED\led.h)(0x54CB0984)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (E:\Work\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (..\HARDWARE\KEY\key.c)(0x5FF1B5DB)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\TIMER -I ..\HARDWARE\LCD -I ..\HARDWARE\ADC -I ..\HARDWARE\STM32F10x_DSP_Lib\inc -I ..\HARDWARE\DAC-IE:\Work\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD -DSTM32F10X_HD-o ..\obj\key.o --omf_browse ..\obj\key.crf --depend ..\obj\key.d)
+I (..\HARDWARE\KEY\key.h)(0x5FF1B5DB)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (E:\Work\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\delay\delay.h)(0x555AC61F)
+F (..\HARDWARE\BEEP\beep.c)(0x54CB0A7C)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\TIMER -I ..\HARDWARE\LCD -I ..\HARDWARE\ADC -I ..\HARDWARE\STM32F10x_DSP_Lib\inc -I ..\HARDWARE\DAC-IE:\Work\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD -DSTM32F10X_HD-o ..\obj\beep.o --omf_browse ..\obj\beep.crf --depend ..\obj\beep.d)
+I (..\HARDWARE\BEEP\beep.h)(0x5FF1CA8C)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (E:\Work\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (..\HARDWARE\TIMER\timer.c)(0x5F48D661)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\TIMER -I ..\HARDWARE\LCD -I ..\HARDWARE\ADC -I ..\HARDWARE\STM32F10x_DSP_Lib\inc -I ..\HARDWARE\DAC-IE:\Work\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD -DSTM32F10X_HD-o ..\obj\timer.o --omf_browse ..\obj\timer.crf --depend ..\obj\timer.d)
+I (..\HARDWARE\TIMER\timer.h)(0x5FF1B5DB)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (E:\Work\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\HARDWARE\LED\led.h)(0x54CB0984)
+F (..\HARDWARE\EXTI\exti.c)(0x5FF1B6E5)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\TIMER -I ..\HARDWARE\LCD -I ..\HARDWARE\ADC -I ..\HARDWARE\STM32F10x_DSP_Lib\inc -I ..\HARDWARE\DAC-IE:\Work\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD -DSTM32F10X_HD-o ..\obj\exti.o --omf_browse ..\obj\exti.crf --depend ..\obj\exti.d)
+I (..\HARDWARE\EXTI\exti.h)(0x54CB11DC)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (E:\Work\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\delay\delay.h)(0x555AC61F)
+I (..\HARDWARE\LED\led.h)(0x54CB0984)
+I (..\HARDWARE\KEY\key.h)(0x5FF1B5DB)
+I (..\HARDWARE\BEEP\beep.h)(0x5FF1CA8C)
+F (..\HARDWARE\ADC\adc.c)(0x5F420079)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\TIMER -I ..\HARDWARE\LCD -I ..\HARDWARE\ADC -I ..\HARDWARE\STM32F10x_DSP_Lib\inc -I ..\HARDWARE\DAC-IE:\Work\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD -DSTM32F10X_HD-o ..\obj\adc.o --omf_browse ..\obj\adc.crf --depend ..\obj\adc.d)
+I (..\HARDWARE\ADC\adc.h)(0x5F40D685)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (E:\Work\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\delay\delay.h)(0x555AC61F)
+F (..\HARDWARE\DAC\dac.c)(0x54B74800)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\TIMER -I ..\HARDWARE\LCD -I ..\HARDWARE\ADC -I ..\HARDWARE\STM32F10x_DSP_Lib\inc -I ..\HARDWARE\DAC-IE:\Work\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD -DSTM32F10X_HD-o ..\obj\dac.o --omf_browse ..\obj\dac.crf --depend ..\obj\dac.d)
+I (..\HARDWARE\DAC\dac.h)(0x54B74800)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (E:\Work\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (..\HARDWARE\LCD\ILI93xx.c)(0x6496B626)(-c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\TIMER -I ..\HARDWARE\LCD -I ..\HARDWARE\ADC -I ..\HARDWARE\STM32F10x_DSP_Lib\inc -I ..\HARDWARE\DAC-IE:\Work\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD -DSTM32F10X_HD-o ..\obj\ili93xx.o --omf_browse ..\obj\ili93xx.crf --depend ..\obj\ili93xx.d)
+I (..\HARDWARE\LCD\lcd.h)(0x553B4B7A)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (E:\Work\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (E:\Work\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (..\HARDWARE\LCD\font.h)(0x547B07F5)
+I (..\SYSTEM\usart\usart.h)(0x550EB9F1)
+I (E:\Work\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (..\SYSTEM\delay\delay.h)(0x555AC61F)
+F (..\HARDWARE\STM32F10x_DSP_Lib\src\cr4_fft_1024_stm32.s)(0x49F93D80)(--cpu Cortex-M3 -g --apcs=interwork -IE:\Work\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include--pd "__UVISION_VERSION SETA 538" --pd "STM32F10X_HD SETA 1"--list ..\obj\cr4_fft_1024_stm32.lst --xref -o ..\obj\cr4_fft_1024_stm32.o --depend ..\obj\cr4_fft_1024_stm32.d)
+F (..\README.TXT)(0x54CB3479)()
